@@ -1,4 +1,4 @@
-def encrypt(strval, indices):
+def split(numbers):
     """
     ########################################
     Code Your Program here
@@ -7,19 +7,16 @@ def encrypt(strval, indices):
 
 
 def main():
-    strval = 'Python'
-    indices = [1, 2, 3, 4, 5, 0]
-    ret = encrypt(strval, indices)
+    numbers = [3, 8, 9, 6, 5]
+    ret = split(numbers)
     print(f'Your return value: {ret}')
 
-    strval = 'Python'
-    indices = [3, 4, 1, 2, 5, 0]
-    ret = encrypt(strval, indices)
+    numbers = [1, 2, 3, 4, 5]
+    ret = split(numbers)
     print(f'Your return value: {ret}')
 
-    strval = 'Python'
-    indices = [0, 5, 1, 2, 3, 4]
-    ret = encrypt(strval, indices)
+    numbers = [5, 4, 3, 2, 1]
+    ret = split(numbers)
     print(f'Your return value: {ret}')
 
 
